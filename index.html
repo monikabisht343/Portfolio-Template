@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Editor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume1.html">Digital Marketing</a></li>
+                <li><a href="resume2.html">Hotel Management</a></li>
+                <li><a href="resume3.html">Modeling Photoshoot</a></li>
+                <li><a href="resume4.html">Working Professional</a></li>
+                <li><a href="resume5.html">Cloud Kitchen Portfolio</a></li>
+                <!-- Add more links as needed -->
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <h1>Resume Editor</h1>
+
+        <!-- Resume Input Form -->
+        <div class="form-section">
+            <h2>Personal Information</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label for="contact">Contact Information:</label>
+            <input type="text" id="contact" placeholder="Enter your contact information">
+
+            <h2>Education</h2>
+            <label for="education">Education:</label>
+            <textarea id="education" placeholder="Enter your education details"></textarea>
+
+            <h2>Work Experience</h2>
+            <label for="experience">Work Experience:</label>
+            <textarea id="experience" placeholder="Enter your work experience"></textarea>
+
+            <h2>Skills</h2>
+            <label for="skills">Skills:</label>
+            <textarea id="skills" placeholder="Enter your skills"></textarea>
+
+            <h2>Social Media</h2>
+            <label for="linkedin">LinkedIn:</label>
+            <input type="text" id="linkedin" placeholder="Enter your LinkedIn profile URL">
+            
+            <label for="github">GitHub:</label>
+            <input type="text" id="github" placeholder="Enter your GitHub profile URL">
+            
+            <label for="twitter">Twitter:</label>
+            <input type="text" id="twitter" placeholder="Enter your Twitter profile URL">
+
+            <label for="portfolio">Portfolio</label>
+            <input type="text" id="portfolio" placeholder="Enter Your Portfolio profile URL">
+            
+            <button id="saveButton">Save Resume</button>
+            <button id="downloadButton">Download Resume</button>
+        </div>
+
+        <!-- Display Resume -->
+        <div class="resume-section" id="resumeSection">
+            <!-- The resume will be displayed here -->
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+        <p>Contact: your_email@example.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

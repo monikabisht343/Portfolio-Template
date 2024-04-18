@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+;
+/* Add your styles here */
+
+/* Header styles */
+
+body{
+    background-color: #feff78;
+}
+header {
+    background-color: hsl(265, 84%, 39%); /* Change color as needed */
+    padding: 10px;
+    color: white;
+    text-align: center;
+    position: sticky;
+    width: 100%;
+   
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+    background-color: hsl(265, 84%, 39%);
+    /* padding: 10px; */
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+
+
+
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-bottom: 15px;
+}
+
+.form-section {
+    text-align: left;
+    margin-bottom: 20px;
+   
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.resume-section {
+    text-align: left;
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the social media icons and links */
+.social-links a {
+    margin-right: 10px;
+    font-size: 1.5em;
+    color: #007BFF; /* Change color as needed */
+    text-decoration: none;
+}
